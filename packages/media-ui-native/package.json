@@ -1,0 +1,16 @@
+{
+  "name": "@media-sdk/ui-native",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Headless React Native media components",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^19.1.1"
+  }
+}
